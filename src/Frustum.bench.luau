@@ -2,7 +2,7 @@
 -- Services
 -- Packages
 -- Modules
-local Frustum = require(game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("package"):WaitForChild("Frustum"))
+local Frustum = require(game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("package"))
 -- Types
 type Frustum = Frustum.Frustum
 type BenchmarkProfiler = {
