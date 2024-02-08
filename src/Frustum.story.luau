@@ -16,7 +16,7 @@ return function(frame: Frame)
 	local maid = Maid.new()
 	local drawMaid = maid:GiveTask(Maid.new())
 	task.spawn(function()
-		local Frustum = require(script.Parent.Frustum)
+		local Frustum = require(script.Parent)
 		maid:GiveTask(RunService.RenderStepped:Connect(function()
 			local frustum = Frustum.new(
 				FrustumTest.CFrame,
